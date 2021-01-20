@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Website</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<div class="box">
+		<h1>Create an account</h1>
+		<hr>
+		<img src="assets/img/tenor.gif" alt="">
+		<h2></h2>
+		<input id="name" type="text" placeholder="Name">
+		<input id="email" type="text" placeholder="Email">
+		<input id="phone" type="text" placeholder="Phone">
+		<input id="age" type="text" placeholder="Age">
+		<input id="submit" type="submit" value="Create">
+	</div>
+	
+
+
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script>
+
+		$('input#submit').click(function(){
+			let name= $('input#name').val();
+			let email= $('input#email').val();
+			let phone= $('input#phone').val();
+			let age= $('input#age').val();
+			$('.box img').show();
+
+			let stop=setInterval(function(){
+				$('.box img').hide();
+			if(name == '' || email =='' || phone=='' || age==''){
+				$('h2').text('all fields are required');
+			} else{
+				$('h2').text('Data Stable');
+				 $('input#name').val('');
+				 $('input#email').val('');
+				 $('input#phone').val('');
+				 $('input#age').val('');
+
+				clearInterval(stop);
+
+		}
+		},3000);
+			});
+		
+			
+	</script>
+</body>
+</html>

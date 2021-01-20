@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body{
+	margin: 120px;
+}
+
+a{
+	display: block;
+	background-color: red;
+	padding: 10px 20px;
+	color: #fff;
+	margin: 10px 0;
+	width: 145px;
+	text-align: center;
+}
+
+input{
+	display: block;
+	padding: 10px 20px;
+	border: 1px solid black;
+}
+
+

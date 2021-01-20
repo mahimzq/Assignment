@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Website</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="hridoy">
+	<select name="" id="">
+		<option value="">-select-</option>
+		<option value="Mohsin">Mohsin</option>
+		<option value="Rahman">Rahman</option>
+		<option value="Hridoy">Hridoy</option>
+		<option value="Sojib">Sojib</option>
+		<option value="Emon">Emon</option>
+	</select>
+</div>
+<div class="hridoy">
+	<select name="" id="">
+		<option value="">-select-</option>
+		<option value="Mohsin">Mohsin</option>
+		<option value="Rahman">Rahman</option>
+		<option value="Hridoy">Hridoy</option>
+		<option value="Sojib">Sojib</option>
+		<option value="Emon">Emon</option>
+	</select>
+</div>
+<div class="hridoy">
+	<select name="" id="">
+		<option value="">-select-</option>
+		<option value="Mohsin">Mohsin</option>
+		<option value="Rahman">Rahman</option>
+		<option value="Hridoy">Hridoy</option>
+		<option value="Sojib">Sojib</option>
+		<option value="Emon">Emon</option>
+	</select>
+</div>
+	
+
+
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script>
+
+		$('.hridoy:nth-child(1) select').change(function(){
+			let name= $(this).val();
+			
+			if(name == ''){
+				$('.hridoy:nth-child(2) ').hide();
+				$('.hridoy:nth-child(3)').hide();
+			} else{
+				$('.hridoy:nth-child(2) ').show();
+			}
+		});
+
+		$('.hridoy:nth-child(2) select').change(function(){
+			let name= $(this).val();
+			if(name== ''){
+
+				$('.hridoy:nth-child(3)').hide();
+
+			} else{
+				$('.hridoy:nth-child(3)').show();
+
+			}
+		});
+
+			
+	</script>
+</body>
+</html>

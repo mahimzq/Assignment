@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<h1></h1>
+	<input type="number">
+	<a href="#">Find</a>
+
+	
+
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script>
+			$('a').click(function(){
+				let name = $('input').val();
+				$('h1').text(name);
+				if(name >=10 && name <=20){
+					$('h1').html(' <span style="color:skyblue;"> Youre Welcome </span>');
+				} else if (name >=21 && name <=30) {
+					$('h1').html(' <span style="color:green;"> Youre Welcome kinto apnake aro ' + 500 + ' tk dete hbe </span>');
+				}else if (name >=31 && name <=50) {
+					$('h1').text('Youre Welcome kinto apnake aro ' + 1000 + ' tk dete hbe');
+				} else {
+					$('h1').html('<span style="color:red;">Youre not Welcome </span>');
+				}
+			});
+	</script>
+</body>
+</html>

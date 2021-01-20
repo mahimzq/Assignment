@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>JS</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<h1></h1>
+	<h2></h2>
+	<button id="start">Start</button>
+	<button id="stop">Stop</button>
+	
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script>
+		let number=10;
+		let off;
+		$('button#start').click(function(){
+			
+			off = setInterval(function(){
+				$('h1').html(number);
+
+				number--;
+				if(number<=0){
+				$('h2').html(' <span style="font-size:50px;"> boooom </span>');
+					number=" ";
+				}else{}
+				
+				
+			}, 1000);
+			$('button#stop').click(function(){
+				clearInterval(off);
+				number=10;
+				$('h2').text('');
+			});
+		});
+
+
+	</script>
+</body>
+</html>

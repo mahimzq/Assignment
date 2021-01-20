@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Js</title>
+	<link rel="stylesheet" href="assets/Fonts/fontawesome/css/all.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+</head>
+<body>
+
+<div class="menu">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">blog</a></li>
+		<li><a href="#">services</a></li>
+		<li><a href="#">contact</a></li>
+		<li><a href="#">about</a></li>
+		<a class="btn" href="#">Sign in</a>
+	</ul>
+	<div class="log">
+	<input type="text" placeholder="Email or Phone" name="" id="">
+	<input type="password" placeholder="Password" name="" id="">
+	<button> <i class="fas fa-user-plus"></i> Sign in</button>
+	</div>
+</div>
+
+
+<div class="text">
+<h2>Full Stack</h2>
+<a href="#">login</a>
+</div>
+
+
+<br>
+<br>
+
+
+<button> <i class="fas fa-user-plus"></i> Add Friend</button>
+
+<p>Full Stack Web</p>
+<p>Full Stack Web</p>
+<p>Full Stack Web</p>
+<p>Full Stack Web</p>
+<p>Full Stack Web</p>
+<p>Full Stack Web</p>
+<p>Full Stack Web</p>
+
+
+
+
+
+
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+
+	<script>
+		$('.menu ul .btn').click(function() {
+			$('.menu .log').slideToggle(1000);
+		});
+
+		$('.text a').click(function() {
+			$('.text a').html('<i class="fas fa-user-plus"></i> Full Stack Web Developer');
+		});
+
+	$('p').click(function(){
+		$(this).hide(3000);
+	});
+
+
+	$('button').click(function() {
+		$('button').html('<i class="fas fa-paper-plane"></i> Friend Request Sent');
+	});
+
+	</script>
+</body>
+</html>
