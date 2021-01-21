@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Js</title>
+	<link rel="stylesheet" href="assets/Fonts/fontawesome/css/all.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+</head>
+<body>
+
+	<div class="menu">
+		<input id="name" type="text" placeholder="Name">
+	
+	<button>Login</button>
+	</div>
+
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script>
+
+		(function($){
+			$(document).ready(function(){
+				$('.menu input').blur(function(){
+					let name = $('.menu input#name').val();
+					
+				if(name== ''){
+					$(this).css({ 'border':'5px solid red'});
+
+				} else{
+					$(this).css({ 'border':'1px solid black'});
+					
+				}
+
+				});
+
+			});
+		})(jQuery)
+	
+	</script>
+</body>
+</html>

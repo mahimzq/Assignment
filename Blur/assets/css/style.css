@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.menu{
+	width: 400px;
+	height: 400px;
+	margin: 100px auto;
+} 
+
+.menu  input{
+	display: block;
+	margin: 5px 0;
+	padding: 10px 20px;
+	border: 1px solid black;
+	background: transparent;
+	border-radius: 8px;
+}
+
+
+
+button{
+	padding: 10px 25px;
+	background-color: blue;
+	color: #fff;
+	margin: 50px auto;
+	display: block;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 18px;
+	border-radius: 8px;
+	
+}

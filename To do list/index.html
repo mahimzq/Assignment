@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Website</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<div class="todo">
+		<h2>To-Do List</h2>
+	<input type="text" placeholder="Type Your list">
+	<button id="add">Add More</button>
+	<hr>
+	<ul>
+		
+	</ul>
+
+
+
+	</div>
+
+
+
+	
+
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script>
+
+		(function($){
+			$(document).ready(function(){
+
+				$('.todo button#add').click(function(){
+					let to= $('.todo input').val();
+					$('ul').append('<li> ' + to + ' <button id="remove"> <i class="fas fa-trash"></i> </button ></li>');
+					$('.todo input').val('');
+				});
+
+			$(document).on('click','button#remove',function(){
+
+				$(this).parent('li').remove();
+			});
+
+
+
+			});
+		})(jQuery)
+		
+
+		
+				
+	</script>
+</body>
+</html>

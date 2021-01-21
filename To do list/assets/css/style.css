@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.todo{
+	width: 600px;
+	margin: 100px auto;
+	
+}
+.todo h2{
+	text-align: center;
+	font-size: 35px;
+	background-color: lime;
+	padding: 20px;
+}
+.todo input{
+	width: 480px;
+	padding: 10px 15px;
+	border: 1px solid black;
+	outline: none;
+}
+.todo button{
+	padding: 10px 15px;
+
+}
+
+.todo ul li{
+	background-color: #ccc;
+	color: black;
+	padding: 8px;
+	margin: 15px 0;
+	font-size: 18px;
+
+}
+.todo ul li:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.todo ul li button{
+	margin-left: 450px;
+	float: right: ;
+	background-color: #ccc;
+	border: none;
+	outline: none;
+
+}
+.todo ul li button i{
+	font-size: 20px;
+	cursor: pointer;
+}
