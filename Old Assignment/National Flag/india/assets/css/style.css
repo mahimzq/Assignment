@@ -1,0 +1,39 @@
+.india{
+	width: 600px;
+	height: 150px;
+	border-top: 120px solid orange;
+	border-bottom: 120px solid green;
+	margin: 50px auto;
+	overflow: hidden;
+}
+.india img{
+	width: 145px;
+	margin: 2.5px 228px;
+}
+h2{
+	font-size: 50px;
+	color:white;
+	text-align: center;
+	background-color: red;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+p{
+	text-align: justify;
+	font-size: 20px;
+	color: darkblue;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+.italy{
+	width: 180px;
+	height: 200px;
+	border-right: 250px solid red;
+	border-left: 250px solid green;
+	margin: 50px auto;
+
+
+}
+

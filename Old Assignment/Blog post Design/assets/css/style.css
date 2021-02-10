@@ -1,0 +1,40 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+body{
+	background-color: red;
+}
+.blog{
+	width: 800px;
+	background-color: black;
+	margin:20px auto ;
+	padding: 50px 100px;
+
+}
+.blog img{
+	width:800px;
+	overflow: hidden;
+}
+.blog h2{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	border:2px solid yellow;
+	margin-bottom:  20px;
+	transition: .5s;
+	transition-delay: .1s;
+	
+
+}
+.blog p{
+	color: red;
+	font-size: 20px;
+	text-align: justify;
+	font-family: monospace;
+}
+.blog h2:hover{
+	background-color: red;
+	
+
+}

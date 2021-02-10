@@ -1,0 +1,551 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	box-sizing: border-box;
+	color: #a9a9a9;
+}
+
+.menu-section{
+	background-image: url('../img/[jupiterx.artbees.net][801]home-banner-bg.png');
+	width: 100%;
+	height: 120vh;
+	background-position: center center;
+	background-size: cover;
+}
+.menu .logo{
+	margin-top: 25px;
+	width: 150px;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.menu ul{
+	text-align: center;
+	margin-top: 25px;
+	float: left;
+	margin-left: 100px;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.menu ul li a{
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	transition: color .5s ease; 
+}
+.menu .active{
+	color: #DA3032;
+}
+.menu ul li a:hover{
+	color: #DA3032;
+}
+.menu  p{
+	margin-top: 25px;
+	float: left;
+	margin-left: 35px;
+}
+.menu  p i{
+	font-size: 24px;
+	margin: 0 25px;
+	cursor: pointer;
+	transition: .5s ease;
+}
+.menu a span{
+	margin-top: 2px;
+	display: inline-block;
+	font-size: 18px;
+	color: white;
+	background-color: #DA3032;
+	padding: 30px 35px;
+}
+.menu a span:hover{
+	background-color: #F55858;
+}
+
+.menu  p i:hover{
+	color:#DF3234 ;
+	transform: translate(0, 8px);
+}
+.banner:after{
+	content: '';
+	display:block;
+	clear: both;
+}
+.banner{
+	width: 100%;
+}
+.banner .left{
+	width: 50%;
+	float: left;
+	margin-top: 80px;
+}
+.banner .right{
+	width: 50%;
+	float: left;
+}
+
+.banner .right img{
+	width: 90%;
+}
+
+.banner .left h1{
+	font-size: 90px;
+	color: #fff;
+	margin-left: 80px;
+}
+.banner .left p{
+	font-size: 18px;
+	color: #fff;
+	margin-left: 80px;
+}
+
+.banner .left button{
+	font-size: 20px;
+	color: white;
+	margin-left: 80px;
+	margin-top: 40px;
+	padding: 28px 35px;
+	background-color: transparent;
+	outline: none;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+.banner .left button:hover{
+	background-color: #DA3032;
+	border: 1px solid transparent;
+	transform: skew(3deg, -3deg);
+	color: #000;
+	animation: text .2s ;
+}
+@keyframes text {
+	0%{
+		transform: translate(-15px, 15px);
+	}
+	20%{
+		transform: translate(15px, -15px);
+	}
+	50%{
+		transform: translate(15px, -15px);
+	}
+	80%{
+		transform: translate(-15px, 15px);
+	}
+	100%{
+		transform: translate(-15px, 15px);
+	}
+}
+.area{
+	padding: 150px 40px;
+}
+.img-area{
+	width: 45%;
+	
+}
+.text-area{
+	width: 60%;
+	float: right;
+	margin-top: -550px;
+	padding-left: 100px;
+}
+
+.text-area img{
+	padding: 50px 0;
+}
+.img-area img{
+	width: 80%;
+	margin-left: 60px;
+
+}
+
+.text-area p, h2, h6{
+	width: 80%;
+	margin: 25px 0;
+}
+
+.text-area p{
+	color:#DA3032 ;
+	font-weight: 600;
+}
+.text-area h2{
+	font-size: 44px;
+	color: #000;
+}
+.text-area h6{
+	font-size: 16px;
+	color: #000;
+}
+
+.pizza{
+	float: right;
+	width: 20%;
+	margin-top: -100px;
+}
+.line{	
+	width: 80%;
+	border: 1px dashed #575757;
+	margin: 0px auto;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 130px;
+
+}
+
+.pizza-1{
+	margin: 100px 0 0;
+	padding-bottom: 100px;
+	position: relative;
+}
+.burger{
+	width: 100%;
+}
+.textimg{
+	margin-top: 300px;	
+	float: left;
+}
+.textimg img{
+	width: 30%;
+	border-radius: 50%;
+	margin-left: 150px;
+
+}
+.textimg .text{
+	float: right;
+	width: 40%;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+
+.mid{
+	width: 100%;
+	margin: 300px auto 100px ;
+	text-align: center;
+}
+.mid img{
+	display: inline-block;
+	transition: .5s;
+}
+
+.mid img:hover{
+	transform: scale(1.3) ;
+}
+
+.mid h2{
+	text-align: center;
+	display: block;
+	margin: 50px auto;
+	color: #000;
+	font-size: 44px;
+}
+
+
+.pic img{
+	width: 22%;
+	border-radius: 50%;
+	float: left;
+	margin-left: 50px;
+	padding: 10px;
+	transition: .5s ease;
+
+}
+.pic img:hover{
+	transform: scale(1.1) rotate(40deg);
+}
+
+
+
+.pictext{
+	width: 20%;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+	padding: 10px;
+	
+}
+.pictext h2{
+	font-size: 30px;
+	color: #000;
+
+}
+.pictext p{
+	font-size: 16px;
+	color: #7a7a7a;
+
+}
+
+.pictext h4{
+	font-size: 16px;
+	color: #7a7a7a;
+
+}
+.pictext h4 span{
+	font-size: 32px;
+	color: #f63636;
+
+}
+
+.btn{
+	padding: 25px 35px;	
+	margin: 150px auto 50px ;
+	float: left;
+}
+.btn button{
+	padding: 25px 35px;
+	font-weight: 600;
+	color: #f63636;
+	display: inline-block;
+	padding: 28px 35px;
+	background-color: transparent;
+	outline: none;
+	border: 1px solid #f63636;
+	cursor: pointer;
+	margin-left: 520px;
+	font-size: 24px;
+}
+
+.btn button:hover{
+	background-color: #DA3032;
+	border: 1px solid transparent;
+	transform: skew(3deg, -3deg);
+	color: #fff;
+	animation: text .2s ;
+}
+@keyframes text {
+	0%{
+		transform: translate(-15px, 15px);
+	}
+	20%{
+		transform: translate(15px, -15px);
+	}
+	50%{
+		transform: translate(15px, -15px);
+	}
+	80%{
+		transform: translate(-15px, 15px);
+	}
+	100%{
+		transform: translate(-15px, 15px);
+	}
+}
+.last{
+	margin-bottom: 250px;
+}
+.last iframe{
+	width: 100%;
+	height: 80vh;
+	background-image: url('../img/home-video-768x280.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.footer{
+	text-align: center;
+}
+
+.footer-item p{
+	color: #f63636;
+	margin: 20px 0;
+	font-size: 16px;
+	font-weight: 600;
+}
+.footer-item h1{
+	color: #000;
+	margin: 100px 0;
+	font-size: 44px;
+	margin-top: 50px;
+}
+.team {
+	text-align: left;
+	margin-left: 65px;
+	float: left;
+}
+
+.team img{
+	width: 50%;
+	border-radius: 50%;
+}
+.team h2{
+	color: #000;
+	font-weight: 700;
+}
+
+.team p{
+	color: #575757;
+	width: 380px;
+	font-size: 20px;
+}
+.footer-last{
+	margin-bottom: 10px;
+	text-align: center;
+
+}
+
+.footer-pic img{
+	width: 60%;
+	margin-top: 100px;
+
+}
+
+.btn{
+	text-align: center;
+
+}
+.btn .btn-1{
+	padding: 35px 45px;
+	background: #DA3032;
+	color: #fff;
+	margin-bottom: 25px;
+}
+.btn p{
+	display: block;
+	font-size: 16px;
+	color: #010101;
+	font-weight: 400;
+	margin-left: 535px;
+}
+.section-last{
+	background-image: url('../img/[jupiterx.artbees.net][801]home-banner-bg - Copy.png');
+	width: 100%;
+	
+	background-position: center center;
+	background-size: cover;
+	margin: 350px auto 0;
+}
+.section-last:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.section-left{
+	width: 33%;
+	padding: 250px 0 0;
+	margin-left: 180px;
+	float: left;
+	
+}
+.section-left img{
+	width: 220px;
+	cursor: pointer;
+	
+}
+.section-left h6{
+	color: #a9a9a9;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+
+.section-left p i{
+	padding: 25px;
+	font-size: 24px;
+	margin-left: -25px;
+	cursor: pointer;
+	transition: .5s ease;
+}
+
+
+.section-left p i:hover{
+	color:#DF3234 ;
+	transform: translate(0, 8px);
+}
+
+.section-mid{
+	width: 30%;
+	float: left;
+	padding: 250px 0 0;
+	margin-left: -10px;
+	
+}
+.section-mid label{
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	cursor: help;
+}
+.section-mid ul li{
+	display: block;
+	margin: 25px 0;
+}
+.section-mid ul li a{
+	color: #fff;
+	transition: .5s color ease;
+}
+.section-mid ul li a:hover{
+	color: #DA3032;
+}
+
+.section-right{
+	width: 22%;
+	float: left;
+	padding: 250px 0 0;	
+	margin-left: -55px;
+}
+.section-right h2{
+	font-size: 18px;
+	color: #fff;
+}
+
+.section-right input{
+	background-color: rgba(255,255,255,.1);
+	padding: 16px 0 16px 30px;
+	border: none;
+	color: #fff;
+	float: left;
+}
+.section-right input:focus{
+	background-color: rgba(255,255,255,.2);
+}
+.section-right .fas{
+	background-color: #f41d1d;
+	display: block;
+	padding: 15px 20px 15px 18px;
+	text-align: center;
+	color: #fff;
+	margin-left: 5px;
+	float: left;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: .5s ease;
+	
+}
+
+.section-right p{
+	display: inline-block;
+	margin-top: 20px;
+}
+.section-right .fas:hover{
+	background-color: #f63636;
+	border: 1px solid #2ecc71;
+}
+
+.footer-line{
+	padding-bottom: 10px;
+	width: 100%;
+	float: left;
+}
+.footer-line .last-line{
+	color: #fff;
+	width: 80%;
+	margin: 0 auto;
+
+}
+.footer-line h6{
+	font-weight: 600;
+	font-size: 14px;
+	display: block;
+	margin-left: 250px;
+	color: #7a7a7a;
+	
+}
+
+.footer-line h6 a{
+	color: #f63636;
+}

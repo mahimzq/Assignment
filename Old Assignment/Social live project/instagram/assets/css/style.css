@@ -1,0 +1,179 @@
+@font-face {
+	font-family: segoe;
+	src: url('../fonts/segoeui.ttf');
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: segoe;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.container{
+	width: 100%;
+	
+}
+body{
+	background-color:#FAFAFA ;
+}
+/* reset */
+.right{
+	width: 40%;
+	float: left;
+}
+.right img{
+	width: 380px;
+	height: 580px;
+	margin: 40px 250px;
+}
+.left{
+	border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 3px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    width: 60%;
+    float: left;
+    width: 30%;
+    margin-top: 80px;
+    margin-left: 180px;
+
+}
+
+.left img{
+	display: block;
+	width: 300px;
+	margin: 20px auto 30px;
+}
+
+.left input{
+	width: 85%;
+	margin: 20px auto;
+	outline-style: none;
+	border-radius: 3px;
+	font-size: 18px;
+	outline-width: 0px;
+	outline-color: rgb(38, 38, 38);
+	display: block;
+	border: 1px solid #999990;
+	background: transparent;
+	padding: 15px 20px ;	
+    color: rgba(var(--i1d,38,38,38),1);
+
+}
+
+
+.left input:focus{ 
+    background: rgba(var(--b3f,250,250,250),1);
+    border: .5px solid #303030;
+    outline-offset: 0px;
+  }
+
+ .left .btn-1{
+ 	background-color: #0095F6;
+ 	color: white;
+ 	font-weight: 600;
+ 	letter-spacing: 2px;
+ 	padding: 10px;
+ 	border-radius: 5px;
+ 	width: 85%;
+ 	font-size: 18px;
+ 	padding: 15px 20px;
+ 	margin: 10px auto 5px;
+ 	border: none;
+ 	display: block;
+ }
+.left a{
+	text-align: center;
+	display: block;
+	color: #84379B;
+	margin: 0px auto 10px;
+}
+.signup{
+	width: 99.5%;
+	top: 82%;
+	left: 216px;
+	position: absolute;
+	text-align: center;
+	
+}
+
+.box{
+	box-sizing: border-box;
+
+}
+.box p{
+	font-size: 16px;
+	border: 1px solid rgba(219,219,219);
+	padding: 15px;
+	width: 30%;
+	margin-left: 505px;
+}
+.app{
+	margin-left: 720px;
+	margin-top: -55px;
+	float: left;
+}
+
+.app img{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	float: left;
+	margin: 0 20px;
+
+}
+.app p{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: -40px;
+}
+.footer{
+	float: left;
+	width: 85%;
+	display: block;
+	text-align: center;
+}
+.footer ul {
+	text-align: center;
+	margin-left: 250px;
+	
+	
+}
+
+.footer ul li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.footer ul li a{
+	display: block;
+	color: #8e8e8e;
+}
+.footer select{	
+	text-align: center;
+	margin: auto;
+	color: #8e8e8e;
+	float: left;
+	width: 80px;
+	padding: 3px;
+	margin-left: 530px;
+	display: flex;
+	outline: none;
+	border: none;
+	margin-right: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+
+}
+.footer p{
+	color: #8e8e8e;
+	display: flex;
+	margin-top: 20px;
+
+
+}

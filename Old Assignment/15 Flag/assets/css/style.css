@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.green{
+	width: 600px;
+	height: 350px;
+	background-color: green;
+	overflow: hidden;
+	margin: 50px auto 50px;
+}
+.b h2{
+	text-align: center;
+	color: red;
+	font-size: 40px;
+	margin-top: 20px;
+	background-color: black;
+	width: 600px;
+	margin: 10px auto ;
+}
+.red{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 50%;
+	margin: 75px auto ;
+}
+
+.i h2{
+	text-align: center;
+	color: red;
+	font-size: 40px;
+ }
+ .work {
+ 	width: 600px;
+	height: 150px;
+	border-top: 120px solid orange;
+	border-bottom: 120px solid green;
+	margin: 50px auto 0px;
+	overflow: hidden;
+	text-align: center;
+ }
+ .work img{
+ 	width: 150px;
+ }
+ .s{
+ 	background-color: red;
+ 	width: 600px;
+ 	height: 300px;
+ 	margin: 50px auto;
+ 	overflow: hidden;
+ 	
+ }
+
+.s img{
+	width: 300px;
+	margin: -62px 150px;
+	
+}

@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 90%;
+}
+/* reset */
+.right{
+	width: 60%;
+	float: left;
+}
+.main:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.right img{
+	width: 350px;
+	margin-left: 260px;
+}
+.left{
+	width: 40%;
+	float: left;
+}
+.left-side{
+	width: 440px;
+	border: 2px solid #333333;
+	margin: 80px auto 0;
+	padding-bottom: 20px;
+
+
+}
+.left-side img{
+	width: 180px;
+	display: block;
+	margin: 20px auto ;
+}
+.left-side input{
+	width: 85%;
+	display: block;
+	margin: 20px auto;
+	padding: 12px 20px;
+
+}
+.left-side .btn-1{
+	width: 85%;
+	display: block;
+	margin: 20px auto;
+	padding: 12px 20px;
+}
+.left-side a{
+	display: block;
+	text-align: center;
+}
+.box{
+	width: 440px;
+	border: 2px solid #333333;
+	float: left;	
+	padding: 15px 0;
+	margin: 20px auto;
+
+}
+.box p{
+	text-align: center;
+}
+
+.app{
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+
+.app p{
+	text-align: center;
+}
+.app img{
+	width: 180px;
+	height: 65px;
+	display: inline-block;
+	margin: 20px 10px;
+	cursor: pointer;
+}
+
+.footer{
+	width: 80%;
+	margin: 10px auto;
+	margin-left: 180px;
+}
+.footer ul{
+	text-align: center;
+	margin: 20px 0;
+}
+.footer ul li{
+	display: inline-block;
+}
+
+.footer ul li a{
+	display: block;
+	font-size: 16px;
+	color: #333333;
+	margin: 5px 10px;
+
+}
+
+.footer select{
+	color: #333333;
+	float: left;
+	margin-left: 380px;
+	
+}
+.footer select p{
+	color: #333333;
+	float: left;
+	margin-left: 10px;
+
+
+
+}
