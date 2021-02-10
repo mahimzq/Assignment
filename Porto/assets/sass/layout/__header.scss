@@ -1,0 +1,58 @@
+.top-header{
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+    border-top: 3px solid rgb(11, 7, 248);
+    
+    .top-bar{
+        @include after;
+        
+        width: 70%;
+        .left{
+            width: 35%;
+            float: left;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        .right{
+            width: 35%;
+            margin-top: 5px;
+            margin-right: -400px;
+            float: right;
+            a{
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.header{
+    .menu{
+        margin-top: 25px;
+        @include after;
+        .logo{
+            margin-left: 5px;
+            float: left;
+            img{
+                width: 100px;
+            }
+        }
+        ul{
+            float: right;
+            margin-top: 10px;
+            li{
+                display: inline-block;
+                margin: 0 15px;
+                padding-bottom: 3px;
+                transition: .5s ease;
+               &:hover{
+                border-bottom: 3px solid $p_color;
+               }
+                a{
+                    display: inline-block;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

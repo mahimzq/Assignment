@@ -1,0 +1,422 @@
+.header-menu4{
+	background-image: linear-gradient(rgba(0, 0, 0, .4), #006686), url('../img/slide-bg-2.jpg');
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+    height: 100vh;
+    margin-top: -25px;
+    .menu{
+        a{
+            color:white;
+        }
+    }
+    .header4{
+        .menu{
+            margin-top: 25px;
+            padding-top: 20px;
+            @include after;
+            .logo{
+                margin-left: 5px;
+                float: left;
+                img{
+                    width: 100px;
+                }
+            }
+            ul{
+                float: right;
+                margin-top: 10px;
+                li{
+                    display: inline-block;
+                    margin: 0 15px;
+                    padding-bottom: 3px;
+                    transition: .5s ease;
+                   &:hover{
+                    border-bottom: 3px solid $p_color;
+                   }
+                    a{
+                        display: inline-block;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+    
+}	
+
+// Banner Start 
+.banner1{
+    text-align: center;
+    
+    .banner-item{
+        margin-top: -350px;
+
+        h2{
+            font-size: 1.5em;
+            color:white;
+        }
+        h1{
+            font-size: 3.1em;
+            margin: 8px 0;
+            font-weight: 600;
+            color: white;
+        }
+        p{
+            color:white;
+            line-height: 20px;
+        }
+
+      
+       
+    }
+}
+
+.services{
+    width: 100%;
+    height: 80vh;
+    background-color:#0188CC ;
+    margin-top: 220px;
+    .stext{
+        padding-top: 100px;
+        text-align: center;
+       h2{
+           color:white;
+           font-size: 40px;
+           margin: 8px 0;
+           font-weight: 600;
+       }
+       p{
+           color:white;
+       }
+    }
+    .icon{
+       
+        
+        .list{
+            display: flex;
+            flex-direction: row;
+            width: 33.3%;
+            justify-content: space-between;
+            align-content: center;
+            margin-top: 60px;
+            float: left;
+            i{
+                font-size: 35px;
+                color:white;
+            }
+        }
+        .text{
+            margin-left: 50px;
+            margin-top: -30px;
+            h2{
+                color:white;
+                font-size: 20px;
+                font-weight: 600;
+                margin: 10px 0;
+
+            }
+            p{
+                color:white;
+            }
+        }
+    }
+
+}
+
+
+// Project start 
+.project{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    
+    .project-text{
+        margin-top: 80px;
+        h2{
+            font-size: 50px;
+            color: #333;
+            
+        }
+        p{
+            font-size: 20px;
+            color: #333;
+            margin: 10px 0;
+        }
+        h3{
+            color: #333;
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 400;
+        }
+    }
+
+    .product-list{
+        display: flex;
+        float: left;
+        margin-left: 50px;
+        margin-top: 50px;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: row;
+        .item{
+        width: 250px;
+        height: 250px;
+        background-size: 100%;
+        
+        background-position: center center;
+        transition: .5s;
+        &:hover{
+            background-size: 130%;
+            cursor: pointer;
+            border-radius:8px;
+            .text{
+                h2{
+                    a{
+                        color: #fff;
+                    }
+                    background-color: #191a1bc5;
+                }
+            }
+
+        }
+        .text{
+            margin-top: 150px;
+            h2{
+                background-color: #30333794;
+                width: 100px;
+                padding: 20px 10px;
+                color:white;
+                a{
+                    color: #fff;
+                }
+            }
+            span{
+                background-color: $p-color;
+                color:white;
+                padding: 5px;
+                margin-left: -150px;
+                margin-top: -10px;
+
+            }
+
+        }
+        }
+    }
+    
+}
+
+// Template Start 
+.temp{
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .9),), url('../img/bg-one-page-1-1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .temp-pro{
+        text-align: center;
+        padding-top: 90px;
+        h1{
+            font-size: 35px;
+            color: #fff;
+            margin: 15px 0;
+        }
+        p{
+            color:white;
+        }
+    }
+    .img{
+        float: left;
+        
+        margin: 10px auto;
+        img{
+            width: 150px;
+            margin-left: 50px;
+        }
+    }
+    .lorem{
+        margin-top: 50px;
+    
+        text-align: center;
+        float: left;
+        p{
+            display: block;
+            color:white;
+            font-size: 25px;
+            padding: 50px;
+            line-height: 40px;
+
+        }
+        h4{
+            color:white;
+            margin-top: -20px;
+        }
+    }
+}
+
+// Team Section Start 
+.team{
+    .team-text{
+        margin-top: 100px;
+
+        text-align: center;
+        h1{
+            font-size: 40px;
+        }
+        p{
+            color:#333;
+            margin: 10px 0;
+        }
+    }
+    .member{
+        margin-bottom: 50px;
+        display: flex;
+        padding: 50px 0;
+        flex-direction: row;
+        align-content:center;
+        justify-content: space-between;
+        .m-list{
+            cursor: pointer;
+            width: 25%;
+            img{
+                width: 250px;
+                border-radius:10px;
+                margin-bottom: 10px;
+            }
+            h2{
+                font-weight: 600;
+            }
+            p{
+                color:#444;
+                margin: 5px 0;
+            }
+            span{
+                color:#333;
+                padding-bottom: 1px;
+            }
+            .icon-m{
+                margin: 10px 0;
+                i{
+                    background-color: $p-color;
+                    color:white;
+                    font-size: 15px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    transition: .5s;
+                    &:hover{
+                        color:black;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// Contact Start 
+
+.contact1{
+    background-color: #EDEDED;
+    width: 100%;
+    height: 71vh;
+    
+    .mix{
+        .left1{
+            width: 50%;
+            float: left;
+            margin-left: -65px;
+           .map{
+               width: 100%;
+           } 
+        }
+        .right1{
+            padding-top: 30px;
+            text-align: center;
+            h2{
+                color:rgb(19, 17, 17);
+                font-size: 32px;
+            }
+            p{
+                font-size: 18px;
+                margin: 10px 0;
+            }
+            .login{
+                input{
+                    padding: 10px 20px;
+                    width: 35%;
+                    margin: 8px 0;
+                    outline: none;
+                    background-color: transparent;
+                    border:1px solid rgb(29, 26, 26);
+                }
+                textarea{
+                    display: block;
+                    padding: 15px 10px;
+                    outline: none;
+                    background-color: transparent;
+                    border:1px solid rgb(29, 26, 26);
+                    margin: 0 auto;
+                    width: 37%;
+                }
+                button{
+                    width: 10%;
+                    padding: 10px 25px;
+                    background-color: $p-color;
+                    outline:none;
+                    border:none;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    color:#fff;
+
+                }
+            }
+
+        }
+    }
+}
+
+// Contact End 
+
+.call{
+    width: 100%;
+    height: 150px;
+    background-color:#0088CC;
+    .us{
+        margin-left: 150px;
+        padding-top: 20px;
+        .new{
+            width: 30%;
+            float: left;
+            margin: 50px 0;
+            .icon{
+                float: left;
+                color:#fff;
+                i{
+                    font-size: 25px;
+                    padding: 8px;
+                }
+            }
+            .texi{
+                color:#fff;
+                a{
+                    color:white;
+                }
+            }
+        }
+    }
+}
+
+.copytext{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color:#1C2023 ;
+    .copyr{
+        padding: 20px;
+        margin:auto;
+        p{
+            color:rgb(128, 120, 120);
+            width: 90%;
+        }
+    }
+}
